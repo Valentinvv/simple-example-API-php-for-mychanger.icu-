@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Regular.woff') format('woff'),
+        url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-ExtraBold.eot');
+    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+        url('Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-ExtraBold.woff') format('woff'),
+        url('Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background: url("../images/bg-black.jpg") top center/cover fixed no-repeat, #0D1241;
+    color: #fff;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px;
+}
+
+form {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 20px 20px 50px #0C1039;
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 570px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 30px auto 17px;
+}
+
+.id-psys {
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0 auto 30px;
+}
+
+.card_box {
+    background: #16265A;
+    box-shadow: 12px 12px 30px rgba(7, 13, 48, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    width: 362px;
+    height: 228px;
+}
+
+.card_box::after {
+    background: url("../images/signal.svg") no-repeat;
+    content: '';
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.card_box-top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_box-top-p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card_box-number {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.card_box-number p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 0 4px;
+}
+
+.card_box-number-item {
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    justify-content: space-between;
+}
+
+.card_box-timer {
+    text-align: left;
+}
+
+.card_box-timer p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    line-height: 19px;
+    margin: 10px 0 0;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 40px auto 10px;
+}
+
+h3 > span {
+    color: #3DCDC6;
+    font-weight: 800;
+}
+
+h3.h3 {
+    margin: 10px auto;
+}
+
+hr {
+    border: 2px dashed #3DCDC6;
+    transform: rotate(90deg);
+    width: 20px;
+    height: 0px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.btn {
+    align-items: center;
+    background: #3DCDC6;
+    box-shadow: 0px 4px 0px #1E918B;
+    border-radius: 8px;
+    border: 0;
+    color: #0D1241;
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 18px;
+    width: 240px;
+    height: 60px;
+}
